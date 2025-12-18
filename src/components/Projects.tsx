@@ -1,5 +1,7 @@
 import { useState, useEffect, useRef } from "react";
 import picture from "../assets/picture-1.png";
+import todo from "../assets/picture-2.png";
+import luxhub from "../assets/picture-3.png";
 
 const Projects = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -48,19 +50,17 @@ const Projects = () => {
 
           <div className="flex flex-wrap gap-[30px]">
             <div className="w-full sm:w-[300px] rounded-lg cursor-pointer hover:scale-105 transition-transform duration-300 bg-[#1d1c27]">
-              <img src={picture} alt="Project 1" className="rounded-lg mt-6" />
+              <img src={todo} alt="Project 1" className="rounded-lg mt-6" />
               <div className="p-4">
-                <h2 className="text-xl font-semibold text-white">
-                  Netflix Clone{" "}
-                </h2>
+                <h2 className="text-xl font-semibold text-white">To-do App</h2>
                 <div className="flex justify-between items-center mt-2 border-t border-[#2b2839] pt-2 text-[#94a3b8] text-sm font-medium">
                   <a
-                    href=""
+                    href="https://github.com/Sherifd33n/to-do"
                     className="bg-[#2b2839] px-3 py-1.5 rounded-md hover:text-[#2b2839] hover:bg-[#94a3b8]  duration-300 transition-all">
                     GitHub Repo
                   </a>
                   <a
-                    href=""
+                    href="https://to-do-three-self.vercel.app/"
                     className="text-[#2b2839] bg-[#94a3b8] px-3 py-1.5 rounded-md hover:text-[#94a3b8] hover:bg-[#2b2839]  duration-300 transition-all">
                     Live Demo
                   </a>
@@ -90,19 +90,19 @@ const Projects = () => {
             </div>
 
             <div className="w-full sm:w-[300px] rounded-lg cursor-pointer hover:scale-105 transition-transform duration-300 bg-[#1d1c27]">
-              <img src={picture} alt="Project 1" className="rounded-lg mt-6" />
+              <img src={luxhub} alt="Project 1" className="rounded-lg mt-6" />
               <div className="p-4">
                 <h2 className="text-xl font-semibold text-white">
-                  Netflix Clone{" "}
+                  LuxHub Reservation{" "}
                 </h2>
                 <div className="flex justify-between items-center mt-2 border-t border-[#2b2839] pt-2 text-[#94a3b8] text-sm font-medium">
                   <a
-                    href=""
+                    href="https://github.com/Sherifd33n/Luxhub"
                     className="bg-[#2b2839] px-3 py-1.5 rounded-md hover:text-[#2b2839] hover:bg-[#94a3b8]  duration-300 transition-all">
                     GitHub Repo
                   </a>
                   <a
-                    href=""
+                    href="https://luxhub-rho.vercel.app/"
                     className="text-[#2b2839] bg-[#94a3b8] px-3 py-1.5 rounded-md hover:text-[#94a3b8] hover:bg-[#2b2839]  duration-300 transition-all">
                     Live Demo
                   </a>

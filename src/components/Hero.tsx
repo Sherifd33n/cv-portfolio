@@ -1,6 +1,6 @@
 import { ArrowRight } from "lucide-react";
 import { useState, useEffect } from "react";
-import {  FaReact } from "react-icons/fa";
+import { FaReact } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io";
 import { RiTailwindCssFill } from "react-icons/ri";
 import hero_image from "../assets/hero_img.png";
@@ -58,8 +58,10 @@ const Hero = () => {
             applications.
           </p>
 
-          <button className="bg-[#3713ec] px-4 py-3 rounded-lg flex items-center text-sm font-semibold text-white gap-1 cursor-pointer hover:opacity-50 duration-300 transition-all my-[20px] mx-auto md:mx-0">
-            See My Projects <ArrowRight className="w-4" />
+          <button
+            onClick={() => window.open("/sherifdeen.pdf")}
+            className="bg-[#3713ec] px-4 py-3 rounded-lg flex items-center text-sm font-semibold text-white gap-1 cursor-pointer hover:opacity-50 duration-300 transition-all my-[20px] mx-auto md:mx-0">
+            Resume <ArrowRight className="w-4" />
           </button>
 
           <div className="mt-[40px] md:mt-0">
