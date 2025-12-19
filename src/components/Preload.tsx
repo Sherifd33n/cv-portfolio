@@ -38,7 +38,7 @@ const Preload = ({ onComplete }: PreloadProps) => {
 
   return (
     <div
-      className={`fixed inset-0 bg-[#0D0D0D] z-[9999] flex items-center justify-center transition-all duration-700 ${
+      className={`fixed inset-0 bg-[#0E0B1A] z-[9999] flex items-center justify-center transition-all duration-700 ${
         isExiting ? "opacity-0" : "opacity-100"
       }`}
     >
@@ -55,11 +55,11 @@ const Preload = ({ onComplete }: PreloadProps) => {
             progress > 20 ? "opacity-100 scale-100" : "opacity-0 scale-95"
           }`}
         >
-          <div className="text-6xl md:text-8xl font-serif text-[#8B7355] mb-8 tracking-tight">
+          <div className="text-6xl md:text-8xl font-serif text-[#E0DCFF] mb-8 tracking-tight">
             JS
           </div>
           
-          <div className="text-sm font-mono text-[#F5F3EF]/50 tracking-widest mb-8">
+          <div className="text-sm font-mono text-[#9B8CFF] tracking-widest mb-8">
             JAMIU SHERIF
           </div>
         </div>
@@ -68,7 +68,7 @@ const Preload = ({ onComplete }: PreloadProps) => {
         <div className="w-64 mx-auto">
           <div className="h-px bg-[#F5F3EF]/10 rounded-full overflow-hidden">
             <div
-              className="h-full bg-gradient-to-r from-[#8B7355] to-[#F5F3EF] transition-all duration-300 ease-out"
+              className="h-full bg-gradient-to-r from-[#E0DCFF] to-[blue] transition-all duration-300 ease-out"
               style={{ width: `${progress}%` }}
             />
           </div>
